@@ -1,0 +1,107 @@
+@font-face {
+    font-family: GT Walsheim;
+    src: url(../../Recursos/GTWalsheim/GT-Walsheim-Regular.ttf);
+}
+
+h1{
+    font-family: GT Walsheim;
+}
+
+h2{
+    font-family: GT Walsheim;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+h3{
+    font-family: GT Walsheim;
+}
+
+p{
+    font-family: GT Walsheim;
+}
+
+#logo{
+    clip-path: inset();
+}
+
+.postularme-bg{
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+/* .Qsomos{
+    margin-top: 60px;
+} */
+
+
+.crop{
+    /* clip-path: inset(0 25% 0 20%); */
+    object-fit: cover;
+    width: 540px;
+    height: 556px;
+    border-radius: 32px;
+}
+
+.row .col p {
+    margin: 20px;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+
+.bnf-rows{
+    margin-top: 7.5rem;
+}
+
+.beneficios-bg{
+    background-color: #1B26BC;
+    width: 15.625rem;
+    height: 4.25rem;
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.beneficios-bg p{
+    margin-top: 15px;
+}
+
+.beneficios-txt{
+    font-size: 1.125rem;
+    color: white;
+}
+
+.subtittle{
+    font-size: 36px;
+}
+
+.circle{
+    width: 8.3125rem;
+    height: 8.3125rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #1B26BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscamos-txt{
+    font-size: 1.5rem;
+}
+
+.pasosDeProceso{
+    color: white;
+}
+
+.pasos{
+    width: 9rem;
+    height: auto;
+}
+
