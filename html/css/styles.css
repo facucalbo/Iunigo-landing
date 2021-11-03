@@ -30,6 +30,33 @@ p{
     width: 100%;
 }
 
+.out-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    margin: 20px;
+}
+
+.in-flex div{
+    margin: 20px;
+}
+
+.blue-text{
+    color: #1B26BC;
+}
+
+.grey-text{
+    color: #686977; 
+    font-size: 1.125rem;
+}
 /* .Qsomos{
     margin-top: 60px;
 } */
@@ -53,7 +80,12 @@ p{
 
 
 .bnf-rows{
-    margin-top: 7.5rem;
+    min-width: 15.625rem;
+}
+
+.bnf-col{
+    width: auto;
+    margin-top: 120px;
 }
 
 .beneficios-bg{
@@ -68,7 +100,7 @@ p{
 }
 
 .beneficios-bg p{
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .beneficios-txt{
@@ -104,5 +136,28 @@ p{
 .pasos{
     width: 9rem;
     height: auto;
+    border-right: white;
+    border-top: white;
 }
 
+.pasos-text{
+    color: white;
+    font-size: 1.5rem;
+    border-right: white;
+}
+
+.boton{
+    background-color: #1B26BC;
+    width: 13.5625rem; 
+    height: 3.5rem; 
+    font-size: 1.75rem;
+}
+
+@media (min-width: 768px) {
+    .img {
+      float: right;
+    }
+    .center-breakpoint{
+        width: 100%;
+    }
+  }
