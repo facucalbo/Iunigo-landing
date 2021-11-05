@@ -67,6 +67,7 @@ p{
     object-fit: cover;
     width: 540px;
     height: 556px;
+    margin: 0px 45px 45px 0px;
     border-radius: 32px;
 }
 
@@ -80,7 +81,7 @@ p{
 
 
 .bnf-rows{
-    min-width: 15.625rem;
+    min-width: 250px;
 }
 
 .bnf-col{
@@ -153,11 +154,25 @@ p{
     font-size: 1.75rem;
 }
 
-@media (min-width: 768px) {
-    .img {
-      float: right;
+@media screen and (max-width:768px) {
+  
+    #hero-img-cell{
+        display: block;
     }
-    .center-breakpoint{
-        width: 100%;
+    
+    #hero-img-fluid-cell{
+        display: none;
     }
-  }
+
+    .postulate-cell{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+  
+    #hero-img-cell{
+        display: none;
+    }
+}
